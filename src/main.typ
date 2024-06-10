@@ -184,3 +184,37 @@ $cot(-x) = -cot(x)$
 + $cos(x/2) = \u{00B1} sqrt((1 + cos(x))/2)$
 
 + $tan(x/2) = sin(x)/(1 + cos(x)) = (1 - cos(x))/sin(x)$
+
+
+#set page(columns: 1)
+
+= Series Convergence Criteria
+
+_Given the series $ sum_(n=1)^infinity a_n$_
+
+
+ - Divergence Test:
+
+  if the limit of the series' general term doesn't exist or is different to 0, the series diverges
+
+ - Convergence by definition :
+
+  if the series' sucession of partial sums converges, the series converges
+
+ - Comparison Test:
+ 
+  when compared to another series $(b_n)$ whose convergence or divergence whe know
+
+  + if $b_n$ diverges and is less than or equal to the series, the series diverges
+
+  + if $b_n$ converges and is greater than or equal to the series, the series converges
+
+ - D'Alembert Criteria:
+  
+  given the value $k = a_n+1 / a_n$ 
+
+   + $k > 1 arrow a_n$ diverges  
+
+   + $k < 1 arrow a_n$ converges
+
+   + $k = 1$ the method is inconclusive and other methods must be applied
